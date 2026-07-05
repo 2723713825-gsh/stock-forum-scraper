@@ -28,7 +28,7 @@ jobs:
         python scraper/main.py
     
     - name: Upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: stock-forum-results
